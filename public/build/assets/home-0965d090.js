@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{fetch("https://discordlookup.mesavirep.xyz/v1/user/200622061062717440").then(e=>e.json()).then(e=>{const r=document.querySelector("#profile-image");r.src=e.avatar.link,r.classList.remove("animate-pulse")}).catch(e=>{console.error("Error:",e)})});
