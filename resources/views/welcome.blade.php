@@ -8,8 +8,14 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=nova-mono:400" rel="stylesheet" />
     @vite('resources/css/app.css')
+    <!-- Social sharing meta -->
+    <meta property="og:url" content="https://leafedfox.xyz" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LeafedFox" />
+    <meta property="og:description" content="Hi, I'm LeafedFox. I live in Visual Studio Code and iTerm." />
+    <meta property="og:image" content="https://leafedfox.xyz/images/leafedfox.png" />
 </head>
-<body class="bg-gradient-to-b from-white to-gray-100 dark:bg-zinc-700 dark:from-zinc-700 dark:to-zinc-800 font-mono">
+<body class="min-h-screen bg-gradient-to-b from-white to-gray-100 dark:bg-zinc-700 dark:from-zinc-700 dark:to-zinc-800 font-mono">
     <div class="container py-8">
         <header class="px-4">
             <div class="flex justify-between items-center">
