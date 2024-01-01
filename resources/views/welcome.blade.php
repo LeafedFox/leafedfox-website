@@ -26,6 +26,7 @@
                 <span>🏳️‍🌈🏳️‍⚧️</span>
                 <span>Developer</span>
                 <span>Gamer</span>
+                <span>VR</span>
             </p>
         </header>
         <hr class="my-4">
